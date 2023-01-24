@@ -1,0 +1,44 @@
+/**************************************
+TITLE: Getting Started Lab (Lab 1)
+AUTHOR: Dwight Abrahams (DA)
+CREATE DATE: 12 Jan 2023
+PURPOSE: This program shows a basic understanding of using html, css, and javascript from individual files.
+LAST MODIFIED ON: 14 Jan 2023
+LAST MODIFIED BY: Dwight Abrahams (DA)
+MODIFICATION HISTORY:
+12 Jan 2023 - Created and completed files. (DA)
+13 Jan 2023 - Added a header block comment. (DA)
+14 Jan 2023 - Added lab title to file. (DA)
+**************************************/
+
+#mainHeader {
+    background-color: #9D2235;
+    color: #ffffff;
+    text-align: center;
+    padding: 5px;
+}
+
+.mainContent {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding: 5px;
+}
+
+#name {
+    font-size: 15px;
+    font-style: italic;
+    color: #F1BE48;
+}
+
+#college {
+    font-size: 15px;
+    font-style: italic;
+    color: #F1BE48
+}
+
+#studentYear {
+    font-size: 15px;
+    font-style: italic;
+    color: #F1BE48
+}
