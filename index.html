@@ -2,11 +2,15 @@
 TITLE: Lab 1 - Expressions, Functions and Objects
 AUTHOR: Dwight Abrahams (DA)
 CREATE DATE: 23 Jan 2023
-PURPOSE: This program shows creating a webpage and adding functionality using functions, expressions and objects.
-LAST MODIFIED ON: 23 Jan 2023
+PURPOSE: This program shows a basic understanding of using html, css, and javascript from individual files.
+LAST MODIFIED ON: 25 Jan 2023
 LAST MODIFIED BY: Dwight Abrahams (DA)
 MODIFICATION HISTORY:
-23 Jan 2023 - Created and completed files. (DA)
+23 Jan 2023 - Created HTML file. (DA)
+23 Jan 2023 - Added a header block with lab title. (DA)
+24 Jan 2023 - Simplified HTML to match project requirements. (DA)
+            - Added functions and object. (DA)
+25 Jan 2023 - Reviewed project to check off lab requirements. (DA)
 ------------------------------------->
 
 <!DOCTYPE html>
@@ -18,19 +22,19 @@ MODIFICATION HISTORY:
         <link rel="stylesheet" href="style.css">
     </head>
     <body id="container">
-      <h1 id="pageTitle"></h1>
-      <p id="output"></p>
-      <p>First Name: <span id="firstName"></span></p>
-      <p>Last Name: <span id="lastName"></span></p>
-      <p>Age: <span id="age"></span></p>
-      <p>Years of Experience: <span id="yearsOfExperience"></span></p>
-      <p>Student: <span id="student"></span></p>
-      <p>School: <span id="school"></span></p>
-      <p>College Cost: <span id="collegeCost"></span></p>
-      <p>My Hobbies: <span id="hobbies"></span></p>
-      <p>My Experience: <span id="experience"></span></p>
-
+      <header>
+        <h1 id="pageTitle"></h1>
+      </header>
+      <div id="name"></div>
+      <div id="age"></div>
+      <div id="student"></div>
+      <div id="arrNames"></div>
+      <div id="arrNumbers"></div>
+      <div id="arrNamesModified"></div>
+      <div id="arrNumbersModified"></div>
+      <div id="personDetails"></div>
+      <div id="personDetailsUpdated"></div>
+      <div id="methodCalls"></div>
       <script src="script.js"></script>
-    </body>
-    
-</html>
+  </body>
+  </html>

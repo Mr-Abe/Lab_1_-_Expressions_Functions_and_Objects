@@ -1,44 +1,46 @@
 /**************************************
-TITLE: Getting Started Lab (Lab 1)
+TITLE: Lab 1 - Expressions, Functions and Objects
 AUTHOR: Dwight Abrahams (DA)
-CREATE DATE: 12 Jan 2023
+CREATE DATE: 23 Jan 2023
 PURPOSE: This program shows a basic understanding of using html, css, and javascript from individual files.
-LAST MODIFIED ON: 14 Jan 2023
+LAST MODIFIED ON: 25 Jan 2023
 LAST MODIFIED BY: Dwight Abrahams (DA)
 MODIFICATION HISTORY:
-12 Jan 2023 - Created and completed files. (DA)
-13 Jan 2023 - Added a header block comment. (DA)
-14 Jan 2023 - Added lab title to file. (DA)
+25 Jan 2023 - Edited color, and fonts for the HTML output. (DA)
 **************************************/
 
-#mainHeader {
+#pageTitle {
     background-color: #9D2235;
     color: #ffffff;
     text-align: center;
     padding: 5px;
 }
 
-.mainContent {
+#container {
     background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding: 5px;
+    
+}
+
+#arrNamesModified {
+    font-weight: bold;
     color: #000000;
     text-align: center;
     padding: 5px;
 }
 
-#name {
-    font-size: 15px;
-    font-style: italic;
-    color: #F1BE48;
-}
+#arrNumbersModified {
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    padding: 5px;
+}   
 
-#college {
-    font-size: 15px;
-    font-style: italic;
-    color: #F1BE48
-}
-
-#studentYear {
-    font-size: 15px;
-    font-style: italic;
-    color: #F1BE48
+#personDetailsUpdated {
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    padding: 5px;
 }
